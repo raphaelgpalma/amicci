@@ -13,3 +13,17 @@
  *= require_tree .
  *= require_self
  */
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #F2D1CE;
+}
+
+/* Estilo para h1 */
+h1 {
+color: #333; /* Cor do texto */
+text-align: center; /* Alinhamento do texto */
+padding: 20px 0; /* Espaçamento interno superior e inferior */
+background-color: #F2D1CE; /* Cor de fundo */
+}
