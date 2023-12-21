@@ -14,16 +14,32 @@
  *= require_self
  */
 body {
-font-family: Arial, sans-serif;
-margin: 0;
-padding: 0;
-background-color: #F2D1CE;
+    background-color: #F2D1CE;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 /* Estilo para h1 */
 h1 {
-color: #333; /* Cor do texto */
-text-align: center; /* Alinhamento do texto */
-padding: 20px 0; /* Espaçamento interno superior e inferior */
-background-color: #F2D1CE; /* Cor de fundo */
+    color: #333;
+    text-align: center;
+    width: 300px;
+    height: 150px;
+    padding: 20px 0;
+    background-color: #F2D1CE;
+  }
+  
+#logo {
+    width: 300px;
+    height: 150px;
+}
+
+#product-button {
+    background-color: #F2D1CE;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
 }
