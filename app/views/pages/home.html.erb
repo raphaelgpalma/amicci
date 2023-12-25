@@ -7,10 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Amicci Joias</title>
 
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/logo/favicon.ico" type="image/x-icon">
+  
 
   <!--
     - custom css link
@@ -31,52 +28,6 @@
 
 
   <div class="overlay" data-overlay></div>
-
-  <!--
-    - MODAL
-  -->
-
-  <div class="modal" data-modal>
-
-    <div class="modal-close-overlay" data-modal-overlay></div>
-
-    <div class="modal-content">
-
-      <button class="modal-close-btn" data-modal-close>
-        <ion-icon name="close-outline"></ion-icon>
-      </button>
-
-      <div class="newsletter-img">
-        <img src="./assets/images/newsletter.png" alt="subscribe newsletter" width="400" height="400">
-      </div>
-
-      <div class="newsletter">
-
-        <form action="#">
-
-          <div class="newsletter-header">
-
-            <h3 class="newsletter-title">Subscribe Newsletter.</h3>
-
-            <p class="newsletter-desc">
-              Subscribe the <b>Anon</b> to get latest products and discount update.
-            </p>
-
-          </div>
-
-          <input type="email" name="email" class="email-field" placeholder="Email Address" required>
-
-          <button type="submit" class="btn-newsletter">Subscribe</button>
-
-        </form>
-
-      </div>
-
-    </div>
-
-  </div>
-
-
 
 
 
@@ -189,7 +140,7 @@
       <div class="container">
 
         <a href="#" class="header-logo">
-          <img src="./assets/images/logo/logo.svg" alt="Anon's logo" width="120" height="36">
+          <%= image_tag 'logo/logo.png', alt: 'Logo' %>
         </a>
 
         <div class="header-search-container">

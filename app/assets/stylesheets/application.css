@@ -126,7 +126,7 @@
   
   input::placeholder { font: inherit; }
   
-  body { background: var(--white); }
+  body { background-color: #F2D1CE; }
   
   /**
    * scrollbar style
@@ -454,7 +454,11 @@
   
   .header-logo { margin-bottom: 20px; }
   
-  .header-logo img { margin: auto; }
+  .header-logo img { 
+    margin: auto;
+    width: 200px;
+    height: auto; 
+  }
   
   .header-search-container { position: relative; }
   
